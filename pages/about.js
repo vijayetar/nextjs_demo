@@ -13,7 +13,7 @@ function About() {
       <style jsx>{`
         .hello {
           font: 15px Helvetica, Arial, sans-serif;
-          background: #eee;
+          background: lightpink;
           padding: 100px;
           text-align: center;
           transition: 100ms ease-in background;

@@ -13,13 +13,13 @@ export default function Home() {
       <style jsx>{`
         .hello {
           font: 15px Helvetica, Arial, sans-serif;
-          background: #eee;
+          background: cornflowerblue;
           padding: 100px;
           text-align: center;
           transition: 100ms ease-in background;
         }
         .hello:hover {
-          background: pink;
+          background: lightpink;
         }
       `}</style>
     </div>
