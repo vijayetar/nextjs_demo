@@ -1,14 +1,10 @@
 import Link from 'next/link'
+import Nav from '../components/Nav'
 
 function About() {
   return (
     <div className="hello">
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <Nav />
       <h1>About Page</h1>
       <style jsx>{`
         .hello {
@@ -19,7 +15,7 @@ function About() {
           transition: 100ms ease-in background;
         }
         .hello:hover {
-          background: #ccc;
+          background: cornflowerblue;
         }
       `}</style>
     </div>
