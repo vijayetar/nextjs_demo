@@ -10,6 +10,7 @@ export default function Home() {
           <a>About</a>
       </Link>
       <h1>Home Page</h1>
+      <footer><small>0.0.1</small></footer>
       <style jsx>{`
         .hello {
           font: 15px Helvetica, Arial, sans-serif;
