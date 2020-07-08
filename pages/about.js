@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Home() {
+function About() {
   return (
     <div className="hello">
       <Link href="/">
@@ -9,7 +9,7 @@ export default function Home() {
       <Link href="/about">
         <a>About</a>
       </Link>
-      <h1>Home Page</h1>
+      <h1>About Page</h1>
       <style jsx>{`
         .hello {
           font: 15px Helvetica, Arial, sans-serif;
@@ -25,3 +25,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default About
